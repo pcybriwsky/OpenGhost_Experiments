@@ -1,0 +1,12 @@
+# Core dependencies for all scripts
+py5>=0.9.0
+
+# Dependencies for camera-based scripts (boids_finger_tracking.py, face_tracking.py)
+# Note: These are only needed if you plan to use the camera functionality
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+pygame>=2.5.0
+# picamera2 must be installed on Raspberry Pi only (not available via pip on other platforms)
+# Install with: pip install picamera2 (on Raspberry Pi)
+# numpy==1.26.4 is required for picamera2 compatibility (install separately if using camera)
+
